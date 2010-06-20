@@ -1,0 +1,5 @@
+jira:
+  server: jira_server
+  user: jira_user
+  pass: jira_pass
+
