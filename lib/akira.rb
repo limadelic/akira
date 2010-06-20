@@ -1,2 +1,2 @@
-require 'settings'
+require 'config/settings'
 require 'akira/jira'

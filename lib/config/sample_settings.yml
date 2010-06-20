@@ -1,0 +1,4 @@
+jira:
+  server: http://jiraserver
+  user: jirauser
+  pass: password

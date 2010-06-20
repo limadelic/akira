@@ -44,28 +44,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings.rb" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lib/settings.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="0.11065007">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="50" selection-start="6" selection-end="50" vertical-scroll-proportion="0.0">
+                <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="akira.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="akira.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/akira.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+                <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.055325035">
                   <folding />
                 </state>
               </provider>
@@ -152,10 +143,10 @@
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/akira/when_reading_jira_task_board_spec.rb" />
         <option value="$PROJECT_DIR$/lib/akira/app_config.rb" />
-        <option value="$PROJECT_DIR$/lib/akira.rb" />
         <option value="$PROJECT_DIR$/lib/settings.rb" />
         <option value="$PROJECT_DIR$/lib/akira/jira.rb" />
         <option value="$PROJECT_DIR$/lib/settings.yml" />
+        <option value="$PROJECT_DIR$/lib/akira.rb" />
       </list>
     </option>
   </component>
@@ -233,6 +224,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akira" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akira" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -676,20 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/akira.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="6" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/akira/jira.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="11" selection-start="237" selection-end="237" vertical-scroll-proportion="0.35961273">
@@ -704,16 +699,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/settings.yml">
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="65" selection-end="65" vertical-scroll-proportion="0.082987554">
+        <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/settings.rb">
+    <entry file="file://$PROJECT_DIR$/lib/akira.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="0.11065007">
+        <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.055325035">
           <folding />
         </state>
       </provider>
