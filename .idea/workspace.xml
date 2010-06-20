@@ -44,19 +44,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="settings.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/settings.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="settings.yml" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lib/settings.yml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="17" selection-start="63" selection-end="63" vertical-scroll-proportion="0.082987554">
+                <state line="4" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="0.11065007">
                   <folding />
                 </state>
               </provider>
@@ -117,7 +108,7 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="hello_jira_spec.rb" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="hello_jira_spec.rb" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/spec/hello_jira_spec.rb">
                   <provider selected="true" editor-type-id="text-editor">
                     <state line="10" column="37" selection-start="202" selection-end="202" vertical-scroll-proportion="0.2766252">
@@ -706,23 +697,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/settings.rb">
+    <entry file="file://$PROJECT_DIR$/spec/hello_jira_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+        <state line="10" column="37" selection-start="202" selection-end="202" vertical-scroll-proportion="0.2766252">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/settings.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="63" selection-end="63" vertical-scroll-proportion="0.082987554">
+        <state line="3" column="19" selection-start="65" selection-end="65" vertical-scroll-proportion="0.082987554">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/hello_jira_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/settings.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="202" selection-end="202" vertical-scroll-proportion="0.2766252">
+        <state line="4" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="0.11065007">
           <folding />
         </state>
       </provider>
