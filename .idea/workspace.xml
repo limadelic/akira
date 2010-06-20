@@ -35,37 +35,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="when_reading_jira_task_board_spec.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="when_reading_jira_task_board_spec.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/akira/when_reading_jira_task_board_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="33" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="akira.rb" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lib/akira.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.055325035">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="jira_spec.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/jira_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="44" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+                <state line="3" column="44" selection-start="113" selection-end="113" vertical-scroll-proportion="0.082987554">
                   <folding />
                 </state>
               </provider>
@@ -210,6 +183,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akira" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akira" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akira" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -569,13 +560,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="3684" height="1600" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983306" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.24990115" sideWeight="0.66553134" order="0" side_tool="false" content_ui="tabs" x="-636" y="479" width="548" height="815" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.24990115" sideWeight="0.66553134" order="0" side_tool="false" content_ui="tabs" x="-636" y="479" width="548" height="815" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39986375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.32901907" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-2068" y="172" width="1930" height="1050" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -619,11 +610,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/jira_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby18/lib/ruby/gems/1.8/gems/rest-open-uri-1.0.0/lib/rest-open-uri.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="23" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0" />
@@ -657,20 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/akira/when_reading_jira_task_board_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/akira_adds_jira_stories_to_lkk.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/jira_task_board_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
@@ -699,16 +671,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+    <entry file="file://$PROJECT_DIR$/lib/akira.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.055325035">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/akira.rb">
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.055325035">
+        <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.1383126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/akira_adds_jira_stories_to_lkk.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="40" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/akira/when_reading_jira_task_board_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="44" selection-start="113" selection-end="113" vertical-scroll-proportion="0.082987554">
           <folding />
         </state>
       </provider>
