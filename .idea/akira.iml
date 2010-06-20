@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="GemRequirementsHolder" version="3">
+    <requirement>
+      <requirement>
+        <dependency name="rest-open-uri" version="0" bound="GREATER_OR_EQUAL" git="false" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec" version="0" bound="GREATER_OR_EQUAL" git="false" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rspec (v1.3.0, C:/Ruby18/lib/ruby/gems/1.8/gems/rspec-1.3.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rest-open-uri (v1.0.0, C:/Ruby18/lib/ruby/gems/1.8/gems/rest-open-uri-1.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] json (v1.4.3, C:/Ruby18/lib/ruby/gems/1.8/gems/json-1.4.3-x86-mingw32)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] jira4r (v0.3.0, C:/Ruby18/lib/ruby/gems/1.8/gems/jira4r-0.3.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] httpclient (v2.1.5.2, C:/Ruby18/lib/ruby/gems/1.8/gems/httpclient-2.1.5.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] soap4r (v1.5.8, C:/Ruby18/lib/ruby/gems/1.8/gems/soap4r-1.5.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] gherkin (v2.0.2, C:/Ruby18/lib/ruby/gems/1.8/gems/gherkin-2.0.2-x86-mingw32)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] term-ansicolor (v1.0.5, C:/Ruby18/lib/ruby/gems/1.8/gems/term-ansicolor-1.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] json_pure (v1.4.3, C:/Ruby18/lib/ruby/gems/1.8/gems/json_pure-1.4.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] builder (v2.1.2, C:/Ruby18/lib/ruby/gems/1.8/gems/builder-2.1.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] diff-lcs (v1.1.2, C:/Ruby18/lib/ruby/gems/1.8/gems/diff-lcs-1.1.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] trollop (v1.16.2, C:/Ruby18/lib/ruby/gems/1.8/gems/trollop-1.16.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] cucumber (v0.8.3, C:/Ruby18/lib/ruby/gems/1.8/gems/cucumber-0.8.3)" level="application" />
+  </component>
+</module>
+
