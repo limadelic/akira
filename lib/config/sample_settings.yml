@@ -2,3 +2,4 @@ jira:
   server: http://jiraserver
   user: jirauser
   pass: password
+  task_board_filter: 18930

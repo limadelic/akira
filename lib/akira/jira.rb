@@ -14,5 +14,7 @@ module Akira
     def stories
       @jira.getIssuesFromFilter @@settings.task_board_filter
     end
+
   end
+
 end
