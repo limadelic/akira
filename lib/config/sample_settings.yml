@@ -1,5 +1,11 @@
 jira:
   server: http://jiraserver
-  user: jirauser
-  pass: password
-  task_board_filter: 18930
+  user: tylerd
+  pass: secret
+  task_board_filter: 42
+
+lkk:
+  site: site_name
+  board: 42
+  user: tylerd@gmail.com
+  pass: secret

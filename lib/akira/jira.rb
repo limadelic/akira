@@ -4,15 +4,15 @@ module Akira
 
   class Jira
 
-    @@settings = JIRA_SETTINGS
+    @@def = JIRA_SETTINGS
 
     def initialize
-      @jira = Jira4R::JiraTool.new 2, @@settings.server
-      @jira.login @@settings.user, @@settings.pass
+      @jira = Jira4R::JiraTool.new 2, @@def.server
+      @jira.login @@def.user, @@def.pass
     end
 
     def stories
-      @jira.getIssuesFromFilter @@settings.task_board_filter
+      @jira.getIssuesFromFilter @@def.task_board_filter
     end
 
   end
