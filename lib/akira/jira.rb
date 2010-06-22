@@ -12,6 +12,12 @@ module Akira
     end
 
     def stories
+      issues.collect { |issue| { :id => issue.key, :title => issue.summary } }
+    end
+
+    private
+
+    def issues
       @jira.getIssuesFromFilter @@def.task_board_filter
     end
 

@@ -9,15 +9,19 @@ module Akira
     @@base_url = "http://#{@@def.site}.leankitkanban.com/Kanban/Api/"
 
     def stories
-      board['Lanes'].inject(Array.new) do |stories, lane|
-        stories + lane['Cards']
-      end
+      cards.collect { |card| { :id => card['Id'], :title => card['Title'] } }
     end
 
     private
 
     def board
       request "#{@@base_url}/Boards/#{@@def.board}"
+    end
+
+    def cards
+      board['Lanes'].inject(Array.new) do |stories, lane|
+        stories + lane['Cards']
+      end
     end
 
     def request(url)
