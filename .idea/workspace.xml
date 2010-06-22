@@ -37,7 +37,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="lkk.rb" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="lkk.rb" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/spec/lkk.rb">
                   <provider selected="true" editor-type-id="text-editor">
                     <state line="20" column="30" selection-start="428" selection-end="428" vertical-scroll-proportion="0.5532504">
@@ -59,10 +59,10 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="akira_adds_jira_stories_to_lkk.feature" pinned="false" current="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/features/akira_adds_jira_stories_to_lkk.feature">
+              <file leaf-file-name="akira_adds_jiras_to_lkk.feature" pinned="false" current="true" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/features/akira_adds_jiras_to_lkk.feature">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="7" column="35" selection-start="255" selection-end="255" vertical-scroll-proportion="0.19363762">
+                    <state line="13" column="12" selection-start="381" selection-end="397" vertical-scroll-proportion="0.35961273">
                       <folding />
                     </state>
                   </provider>
@@ -71,7 +71,7 @@
               <file leaf-file-name="akira.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/lib/akira.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="2" column="18" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+                    <state line="1" column="20" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
@@ -85,10 +85,10 @@
         <splitter split-orientation="horizontal" split-proportion="0.5">
           <split-first>
             <leaf>
-              <file leaf-file-name="jira_task_board_steps.rb" pinned="false" current="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/features/step_definitions/jira_task_board_steps.rb">
+              <file leaf-file-name="akira_adds_jiras_to_lkk_steps.rb" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/features/step_definitions/akira_adds_jiras_to_lkk_steps.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="10" column="27" selection-start="213" selection-end="213" vertical-scroll-proportion="0.2766252">
+                    <state line="17" column="25" selection-start="356" selection-end="356" vertical-scroll-proportion="0.4702628">
                       <folding />
                     </state>
                   </provider>
@@ -107,10 +107,19 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="lkk.rb" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="lkk.rb" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/lib/akira/lkk.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="17" column="28" selection-start="300" selection-end="300" vertical-scroll-proportion="0.47519216">
+                    <state line="11" column="50" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="akira.rb" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/lib/akira/akira.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="4" column="74" selection-start="48" selection-end="48" vertical-scroll-proportion="0.11065007">
                       <folding />
                     </state>
                   </provider>
@@ -130,22 +139,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/lib/akira/app_config.rb" />
         <option value="$PROJECT_DIR$/lib/settings.rb" />
         <option value="$PROJECT_DIR$/lib/settings.yml" />
         <option value="C:/Ruby18/lib/ruby/gems/1.8/gems/jira4r-0.3.0/lib/jira4r/jira_tool.rb" />
         <option value="C:/Ruby18/lib/ruby/gems/1.8/gems/jira4r-0.3.0/lib/jira4r/v2/jira_soap_service_driver.rb" />
         <option value="$PROJECT_DIR$/spec/akira/when_reading_jira_task_board_spec.rb" />
-        <option value="$PROJECT_DIR$/features/akira_adds_jira_stories_to_lkk.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/jira_task_board_steps.rb" />
-        <option value="$PROJECT_DIR$/lib/akira.rb" />
         <option value="$PROJECT_DIR$/lib/config/settings.yml" />
         <option value="$PROJECT_DIR$/lib/config/settings.rb" />
         <option value="$PROJECT_DIR$/lib/akira/jira.rb" />
         <option value="$PROJECT_DIR$/lib/akira/lkk.rb" />
         <option value="$PROJECT_DIR$/lib/config/sample_settings.yml" />
+        <option value="$PROJECT_DIR$/features/akira_adds_jira_stories_to_lkk.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/jira_task_board_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/akira_adds_jiras_to_lkk_steps.rb" />
+        <option value="$PROJECT_DIR$/lib/akira/akira.rb" />
+        <option value="$PROJECT_DIR$/lib/akira.rb" />
       </list>
     </option>
   </component>
@@ -294,6 +303,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akira" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akira" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="step_definitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -307,30 +334,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Cucumber.akira_adds_jira_stories_to_lkk">
-    <configuration default="false" name="akira_adds_jira_stories_to_lkk" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="akira" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/akira_adds_jira_stories_to_lkk.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Cucumber.akira_adds_jiras_to_lkk">
     <configuration default="false" name="When reading jira task board should load the stories" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="akira" />
@@ -415,6 +419,29 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/akira_adds_jira_stories_to_lkk.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="read\ stories\ from\ lkk\ board" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="akira_adds_jiras_to_lkk" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="akira" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/akira_adds_jiras_to_lkk.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
@@ -514,11 +541,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.akira_adds_jira_stories_to_lkk" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.When reading jira task board should load the stories" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.When reading jira task board should load filters" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.When reading jira task board" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.read stories from lkk board" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.When reading jira task board should load the stories" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.When reading jira task board should load filters" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.When reading jira task board" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.read stories from lkk board" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.akira_adds_jiras_to_lkk" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -568,21 +595,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2563" y="0" width="5113" height="1600" extended-state="0" />
+    <frame x="-2558" y="4" width="5119" height="1600" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983306" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32965517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="3026" y="1020" width="609" height="478" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.24990115" sideWeight="0.66553134" order="0" side_tool="false" content_ui="tabs" x="1924" y="532" width="548" height="815" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.24990115" sideWeight="0.66553134" order="0" side_tool="false" content_ui="tabs" x="2833" y="517" width="548" height="815" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39986375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.32901907" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2623" y="566" width="948" height="980" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -654,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/akira.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/config/settings.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="28" selection-start="169" selection-end="169" vertical-scroll-proportion="0.16597511">
@@ -689,27 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/akira/lkk.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="300" selection-end="300" vertical-scroll-proportion="0.47519216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/akira_adds_jira_stories_to_lkk.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="255" selection-end="255" vertical-scroll-proportion="0.19363762">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/jira_task_board_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="213" selection-end="213" vertical-scroll-proportion="0.2766252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby18/lib/ruby/gems/1.8/gems/jira4r-0.3.0/lib/jira4r/jira_tool.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="54" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0">
@@ -720,6 +719,41 @@
     <entry file="file://$PROJECT_DIR$/spec/lkk.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="30" selection-start="428" selection-end="428" vertical-scroll-proportion="0.5532504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/akira/lkk.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="50" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/akira/akira.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="74" selection-start="48" selection-end="48" vertical-scroll-proportion="0.11065007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/akira_adds_jiras_to_lkk_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="356" selection-end="356" vertical-scroll-proportion="0.4702628">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/akira.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/akira_adds_jiras_to_lkk.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="12" selection-start="381" selection-end="397" vertical-scroll-proportion="0.35961273">
           <folding />
         </state>
       </provider>
