@@ -2,6 +2,10 @@ module Akira
 
   class Akira
 
+    def add_new_stories
+      
+    end
+
     def new_stories
       jiras - lkkards
     end

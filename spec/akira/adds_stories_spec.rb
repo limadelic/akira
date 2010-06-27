@@ -15,4 +15,13 @@ describe "when searching new stories" do
     new_stories.first.should == 'new story'
   end
 
+  it "should convert lkk cards to stories" do
+
+    @lkk = Akira::LKK.new
+
+    mock(@lkk).cards {[{ 'Title' => '42 story title'}]}
+
+    @lkk.stories.should == [{ :id => '42', :title => 'story title'}]
+  end
+
 end
