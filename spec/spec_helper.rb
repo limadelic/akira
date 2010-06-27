@@ -4,6 +4,7 @@ require 'rubygems'
 require 'spec'
 require 'akira'
 require 'matchers'
+require 'jira4r'
 
 Spec::Runner.configure do |config|
   config.mock_with :rr

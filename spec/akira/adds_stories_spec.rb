@@ -24,4 +24,15 @@ describe "when searching new stories" do
     @lkk.stories.should == [{ :id => '42', :title => 'story title'}]
   end
 
+  it "should constrain title length" do
+    STORY_SETTINGS.max_title_length = 5
+
+    card = { 'Title' => '42 story title'}
+    Akira::Story.from_card(card)[:title].should == "story"
+
+    jira = Jira4R::V2::RemoteIssue.new
+    jira.summary = 'story title'
+    Akira::Story.from_issue(jira)[:title].should == "story"
+  end
+
 end

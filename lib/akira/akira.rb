@@ -2,8 +2,13 @@ module Akira
 
   class Akira
 
+    def initialize
+      @jira = Jira.new
+      @lkk = LKK.new
+    end
+
     def add_new_stories
-      
+      new_stories.each { |story| @lkk.add story }
     end
 
     def new_stories
@@ -11,11 +16,11 @@ module Akira
     end
 
     def jiras
-      Jira.new.stories
+      @jira.stories
     end
 
     def lkkards
-      LKK.new.stories
+      @lkk.stories
     end
 
   end

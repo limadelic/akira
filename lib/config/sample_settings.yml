@@ -1,3 +1,6 @@
+akira:
+  max_title_length: 100
+  
 jira:
   server: http://jiraserver
   user: tylerd
@@ -6,6 +9,8 @@ jira:
 
 lkk:
   site: site_name
-  board: 42
   user: tylerd@gmail.com
   pass: secret
+  board: 42
+  first_lane: 121212
+  default_card_type: 5555

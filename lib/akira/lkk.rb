@@ -10,7 +10,7 @@ module Akira
     @@board_url = "#{@@base_url}Board/#{@@def.board}/"
 
     def stories
-      cards.collect { |card| story_from card }
+      cards.collect { |card| Story.from_card card }
     end
 
     def add(story)
@@ -18,6 +18,7 @@ module Akira
         :Id => 0,
         :Title => "#{story[:id]} #{story[:title]}",
         :TypeId => @@def.default_card_type,
+        :UserWipOverrideComment => 'testing'
       }.to_json
       url = "#{@@board_url}AddCard/Lane/#{@@def.first_lane}/Position/0"
       post url, new_story
@@ -33,11 +34,6 @@ module Akira
       board['Lanes'].inject(Array.new) do |stories, lane|
         stories + lane['Cards']
       end
-    end
-
-    def story_from(card)
-      title_tokens = card['Title'].split ' ', 2
-      { :id => title_tokens[0], :title => title_tokens[1] }
     end
 
     def request(url)
