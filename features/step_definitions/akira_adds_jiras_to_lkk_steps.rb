@@ -8,14 +8,6 @@ Then /^it should contain jira stories$/ do
   @jira.stories.should_not be_empty
 end
 
-When /^lkk board is read$/ do
-  @lkk = Akira::LKK.new
-end
-
-Then /^it should contain lkk stories$/ do
-  @lkk.stories.should_not be_empty
-end
-
 When /^new stories appear in jira$/ do
   @akira = Akira::Akira.new
 end
@@ -25,9 +17,9 @@ Then /^they should detected$/ do
 end
 
 When /^a new story is added to lkk$/ do
-  @lkk = Akira::LKK.new
   @new_story = { :id => '42', :title => 'new story' }
 
+  @lkk = Akira::LKK.new
   @lkk.add @new_story
 end
 

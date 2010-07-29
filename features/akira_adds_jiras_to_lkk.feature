@@ -7,14 +7,11 @@ Feature: akira adds jira stories to lkk
     When jira task board is read
     Then it should contain jira stories
 
-  Scenario: read stories from lkk board
-    When lkk board is read
-    Then it should contain lkk stories
-
   Scenario: find new stories
     When new stories appear in jira
     Then they should detected
 
+  @delete_cards
   Scenario: add new story to lkk
     When a new story is added to lkk
     Then it should contain the story
