@@ -68,7 +68,7 @@ private
       :body => body,
       'content-type' => 'application/json'
     )
-    jj JSON.parse(response.read)
+    JSON.parse(response.read)
   end
 end
 

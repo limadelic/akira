@@ -24,6 +24,18 @@ module Akira
       post url, new_story
     end
 
+    def delete(story)
+
+#      card = {
+#        :Id => 0,
+#        :Title => "#{story[:id]} #{story[:title]}",
+#        :TypeId => @@def.default_card_type,
+#        :UserWipOverrideComment => 'testing'
+#      }.to_json
+#
+#      post "#{@@board_url}DeleteCard", card
+    end
+
     private
 
     def board
