@@ -25,15 +25,8 @@ module Akira
     end
 
     def delete(story)
-
-#      card = {
-#        :Id => 0,
-#        :Title => "#{story[:id]} #{story[:title]}",
-#        :TypeId => @@def.default_card_type,
-#        :UserWipOverrideComment => 'testing'
-#      }.to_json
-#
-#      post "#{@@board_url}DeleteCard", card
+      cards.select { |card| Story.from_card(card)[:title] == story[:title] }.
+              each { |card| post "deleteUrl", card }
     end
 
     private

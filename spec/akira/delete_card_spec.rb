@@ -3,16 +3,16 @@ require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 describe "when deleting a story" do
 
   it "should remove the matching cards" do
-    match = { 'Title' => '42 match'}
-    dud = { 'Title' => '13 dud'}
-    cards = [ dud, match, dud ]
+    match = { 'Title' => '42 match' }
+    dud = { 'Title' => '13 dud' }
 
     @lkk = Akira::LKK.new
 
-#    mock(@lkk).cards { cards }
+    stub(@lkk).cards { [ dud, match, dud ] }
+    stub(@lkk).post
 
-    @lkk.delete dud
+    @lkk.delete Akira::Story.from_card(match)
 
-    cards.should == [dud, dud]
+    @lkk.should have_received.post('deleteUrl', match)
   end
 end

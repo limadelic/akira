@@ -1,14 +1,6 @@
 require 'rest-open-uri'
 require 'json'
 
-class Story
-  attr_reader :title
-
-  def initialize
-    @title = "Sync RSpecs"
-  end
-end
-
 class LKK
   attr_reader :phases
 
