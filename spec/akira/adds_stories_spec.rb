@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe "when searching new stories" do
+describe "wh  en searching new stories" do
 
   it "should find the jiras missing in lkk" do
 
